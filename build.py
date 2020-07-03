@@ -33,6 +33,8 @@ PyInstaller.__main__.run([
     '--hidden-import=hwilib.devices.keepkey',
     '--hidden-import=hwilib.devices.digitalbitbox',
     '--hidden-import=hwilib.devices.coldcard',
+    # comment this line if you build the standart HWI
+    '--hidden-import=hwilib.devices.checksig',
     '--icon=%s' % os.path.join('icon', 'icon.ico'),
     qt_py,
 ])
