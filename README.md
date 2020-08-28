@@ -18,4 +18,4 @@ Try to execute the command **hwi-qt** and if something is not working fix it.
 When **hwi-qt** is fully working execute **python build.py** or **python build.py [path_to_hwi-qt.py]**.
 After the build process the final executable will be in the *dist* folder.
 
-a
+b
